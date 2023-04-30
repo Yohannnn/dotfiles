@@ -1,0 +1,78 @@
+* {
+	font-size: 19px;
+	font-family: FiraCode Nerd Font;
+}
+
+window#waybar {
+	background: black;
+}
+
+#custom-icon,
+#workspaces button,
+#clock.1,
+#clock.2,
+#clock.3,
+#pulseaudio,
+#backlight,
+#cpu,
+#battery,
+#network,
+#bluetooth,
+#tray {
+	text-shadow: 0 0 5px;
+}
+
+#custom-icon{
+	color: #42769D;
+}
+
+#workspaces button {
+	padding-right: 2px;
+	color: #736ac4;
+}
+#workspaces button.active {
+	color: #D1D1D1;
+}
+#workspaces button:hover {
+	background: black;
+}
+#pulseaudio {
+	color: #42769D;
+}
+#cpu {
+	color: #8F73C4;
+}
+#battery {
+	color: #64B7B7;
+}
+
+#backlight {
+	color: #8D8DBA;
+}
+
+#clock{
+	color: #9AADB2;
+}
+
+#network {
+	color: #71A7CF;
+}
+
+#network.disconnected {
+	color: #9D5776;
+}
+
+#bluetooth {
+	color: #4A6684;
+}
+
+#workspaces,
+#clock,
+#pulseaudio,
+#backlight,
+#cpu,
+#network,
+#bluetooth,
+#battery{
+	padding: 0 0.5em;
+}

@@ -1,0 +1,4 @@
+configuration {
+  modes: [drun, window, calc];
+}
+@theme "custom"
