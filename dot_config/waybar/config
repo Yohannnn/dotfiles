@@ -47,7 +47,6 @@
 		"format": "{icon} {volume}%",
 		"format-muted": "󰝟",
 		"format-icons": {
-			"headphones": "",
 			"default": [
 				"",
 				"",
@@ -94,7 +93,8 @@
 			"",
 			""
 		],
-		"format-plugged": "󱐋 {capacity}%"
+		"format-charging": "󱐋 {capacity}%",
+		"format-plugged": ""
 	},
 	"backlight": {
 		"device": "intel_backlight",
