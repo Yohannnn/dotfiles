@@ -79,7 +79,7 @@ element selected active {
 }
 
 element-icon {
-    size:   0.75em;
+    size:   1.5em;
 }
 
 element-text {
