@@ -28,13 +28,13 @@ window#waybar {
 
 #workspaces button {
 	padding-right: 2px;
-	color: #736ac4;
+	color: #444444;
 }
 #workspaces button.active {
-	color: #D1D1D1;
+	color: #6B6B88;
 }
 #workspaces button:hover {
-	background: black;
+	background: none;
 }
 #pulseaudio {
 	color: #42769D;

@@ -1,6 +1,12 @@
 image=wallpaper.png
-inside-color=#8453E1
-ring-color=#736ac4
-key-hl-color=#5E7EA2
-inside-ver-color=#5E7EA2
-ring-ver-color=#5E7EA2
+inside-color=#00000000
+inside-ver-color=#00000000
+inside-clear-color=#00000000
+
+ring-color=#398484
+key-hl-color=#64B7B7
+bs-hl-color=#CF5E91
+
+ring-ver-color=#42769D
+
+ring-clear-color=#8D8DBA
