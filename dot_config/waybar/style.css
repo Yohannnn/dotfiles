@@ -1,3 +1,5 @@
+@import "mocha.css";
+
 * {
 	font-size: 19px;
 	font-family: FiraCode Nerd Font;
@@ -23,47 +25,47 @@ window#waybar {
 }
 
 #custom-icon{
-	color: #42769D;
+	color: @blue;
 }
 
 #workspaces button {
 	padding-right: 2px;
-	color: #444444;
+	color: @base;
 }
 #workspaces button.active {
-	color: #6B6B88;
+	color: @mauve;
 }
 #workspaces button:hover {
 	background: none;
 }
 #pulseaudio {
-	color: #42769D;
+	color: @sapphire;
 }
 #cpu {
-	color: #8F73C4;
+	color: @lavender;
 }
 #battery {
-	color: #64B7B7;
+	color: @green;
 }
 
 #backlight {
-	color: #8D8DBA;
+	color: @yellow;
 }
 
 #clock{
-	color: #9AADB2;
+	color: @text;
 }
 
 #network {
-	color: #71A7CF;
+	color: @sky;
 }
 
 #network.disconnected {
-	color: #9D5776;
+	color: @blue;
 }
 
 #bluetooth {
-	color: #4A6684;
+	color: @blue;
 }
 
 #workspaces,
