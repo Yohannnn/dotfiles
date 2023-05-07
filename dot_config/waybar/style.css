@@ -6,22 +6,7 @@
 }
 
 window#waybar {
-	background: black;
-}
-
-#custom-icon,
-#workspaces button,
-#clock.1,
-#clock.2,
-#clock.3,
-#pulseaudio,
-#backlight,
-#cpu,
-#battery,
-#network,
-#bluetooth,
-#tray {
-	text-shadow: 0 0 5px;
+	background: transparent;
 }
 
 #custom-icon{
