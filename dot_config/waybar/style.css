@@ -24,7 +24,7 @@ window#waybar {
 	background: none;
 }
 #pulseaudio {
-	color: @sapphire;
+	color: @maroon;
 }
 #cpu {
 	color: @lavender;
@@ -42,11 +42,11 @@ window#waybar {
 }
 
 #network {
-	color: @sky;
+	color: @sapphire;
 }
 
 #network.disconnected {
-	color: @blue;
+	color: @red;
 }
 
 #bluetooth {
