@@ -109,6 +109,7 @@
 		"format-icons": ["", ""]
 	},
 	"tray": {
-		"icon-size": 20
+		"icon-size": 20,
+		"spacing": 10
 	}
 }
