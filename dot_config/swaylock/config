@@ -2,11 +2,17 @@ image=wallpaper.png
 inside-color=#00000000
 inside-ver-color=#00000000
 inside-clear-color=#00000000
+inside-wrong-color=#00000000
+text-color=#cdd6f4
+text-clear-color=#cdd6f4
+text-caps-lock-color=#cdd6f4
+text-ver-color=#cdd6f4
+text-wrong-color=#cdd6f4
 
-ring-color=#398484
-key-hl-color=#64B7B7
-bs-hl-color=#CF5E91
+ring-color=#94e2d5
+key-hl-color=#A6E3A1
+bs-hl-color=#F38BA8
 
-ring-ver-color=#42769D
-
-ring-clear-color=#8D8DBA
+ring-ver-color=#89b4fa
+ring-clear-color=#f9e2af
+ring-wrong-color=#F38BA8
