@@ -3,24 +3,41 @@
 {
 	"layer": "top",
 	"position": "top",
+  "height": 30,
+  "margin": "0 0 0 0",
 
 	"modules-left": [
 		"wlr/workspaces"
 	],
 	"modules-center": [
+		"custom/border-left",
 		"clock#1",
 		"clock#2",
 		"clock#3",
+		"custom/border-right",
 	],
 	"modules-right": [
+		"custom/border-left",
 		"cpu",
 		"battery",
 		"backlight",
 		"pulseaudio",
+		"custom/border-right",
+		"custom/border-left",
 		"network",
 		"bluetooth",
-		"tray"
+		"tray",
+		"custom/border-right"
 	],
+
+	"custom/border-right": {
+			"format": "​"
+	},
+
+	"custom/border-left": {
+				"format": "​"
+		},
+
   "wlr/workspaces": {
     "on-scroll-up": "hyprctl dispatch workspace e+1",
     "on-scroll-down": "hyprctl dispatch workspace e-1",
@@ -58,12 +75,12 @@
 	},
 	"network": {
 		"format-wifi": "",
-		"format-ethernet": "{ipaddr}/{cidr} ",
+		"format-ethernet": "",
 		"format-disconnected": "⚠",
 		"tooltip-format": "{ifname} via {gwaddr}",
 		"tooltip-format-wifi": "{essid} ({signalStrength}%)",
 		"tooltip-format-ethernet": "{ifname} ",
-		"tooltip-format-disconnected": "Disconnected",
+	"tooltip-format-disconnected": "Disconnected",
 		"on-click":"networkmanager_dmenu"
 	},
 	"bluetooth": {
@@ -104,6 +121,6 @@
 	},
 	"tray": {
 		"icon-size": 20,
-		"spacing": 10
+		"spacing": 7
 	}
 }
