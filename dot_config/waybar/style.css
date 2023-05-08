@@ -9,10 +9,6 @@ window#waybar {
 	background: transparent;
 }
 
-#custom-icon{
-	color: @blue;
-}
-
 #workspaces button {
 	padding-right: 2px;
 	color: @base;
@@ -53,7 +49,6 @@ window#waybar {
 	color: @blue;
 }
 
-#workspaces,
 #clock,
 #pulseaudio,
 #backlight,
