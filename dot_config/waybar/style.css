@@ -6,31 +6,41 @@
   font-weight: bold;
 }
 
-window#waybar {
-    background-color: transparent;
+#waybar {
+  background-color: transparent;
 }
 
-#workspaces {
-	padding: 0 0.3em;
-	border-radius: 0.5em;
+#workspaces{
 	margin-left: 0.5em;
+	border-radius: 0.5em;
 }
 
 #workspaces button {
   color: @crust;
-  padding: 0 0.2em;
+  padding: 0 0.5em;
 }
 
 #workspaces button.active {
 	color: @mauve;
 }
 
-#pulseaudio {
-	color: @maroon;
+#clock{
+	color: @text;
 }
+
+#clock.1{
+	border-radius: 0.5em 0 0 0.5em;
+}
+
+#clock.3{
+	border-radius: 0 0.5em 0.5em 0;
+}
+
 #cpu {
 	color: @lavender;
+	border-radius: 0.5em 0 0 0.5em ;
 }
+
 #battery {
 	color: @green;
 }
@@ -39,8 +49,12 @@ window#waybar {
 	color: @yellow;
 }
 
-#clock{
-	color: @text;
+#pulseaudio {
+	color: @maroon;
+}
+
+#pulseaudio.muted{
+	padding: 0 0.2em;
 }
 
 #network {
@@ -53,25 +67,24 @@ window#waybar {
 
 #bluetooth {
 	color: @blue;
+	border-radius: 0 0.5em 0.5em 0;
+	margin-right: 0.5em;
 }
 
-#clock.2,
+#tray{
+	border-radius: 0.5em;
+	margin-right: 0.5em;
+}
+
+#clock,
+#cpu,
+#battery,
 #backlight,
-#battery{
-	padding: 0 0.5em;
-}
-
-#clock.1,
-#network,
-#cpu{
-	padding-right: 0.5em;
-}
-
-#clock.3,
 #pulseaudio,
+#network,
 #bluetooth,
 #tray{
-	padding-left: 0.5em;
+	padding: 0 0.5em;
 }
 
 #workspaces,
@@ -83,19 +96,5 @@ window#waybar {
 #network,
 #bluetooth,
 #tray{
-	background: @base;
-}
-
-#custom-border-right{
-	border-radius: 0 1em 1em 0;
-	padding-right: 0.5em;
-	margin-right: 0.5em;
-	background: @base;
-}
-
-#custom-border-left{
-	border-radius: 1em 0 0 1em;
-	padding-left: 0.5em;
-	margin-left: 0.5em;
 	background: @base;
 }

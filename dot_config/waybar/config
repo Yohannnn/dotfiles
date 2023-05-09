@@ -10,33 +10,19 @@
 		"wlr/workspaces"
 	],
 	"modules-center": [
-		"custom/border-left",
 		"clock#1",
 		"clock#2",
 		"clock#3",
-		"custom/border-right",
 	],
 	"modules-right": [
-		"custom/border-left",
 		"cpu",
 		"battery",
 		"backlight",
 		"pulseaudio",
-		"custom/border-right",
-		"custom/border-left",
 		"network",
 		"bluetooth",
 		"tray",
-		"custom/border-right"
 	],
-
-	"custom/border-right": {
-			"format": "​"
-	},
-
-	"custom/border-left": {
-				"format": "​"
-		},
 
   "wlr/workspaces": {
     "on-scroll-up": "hyprctl dispatch workspace e+1",
