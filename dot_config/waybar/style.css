@@ -36,17 +36,13 @@
 	border-radius: 0 0.5em 0.5em 0;
 }
 
-#cpu {
-	color: @lavender;
-	border-radius: 0.5em 0 0 0.5em ;
-}
-
 #battery {
 	color: @green;
 }
 
 #backlight {
 	color: @yellow;
+	border-radius: 0.5em 0 0 0.5em ;
 }
 
 #pulseaudio {

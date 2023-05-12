@@ -15,9 +15,8 @@
 		"clock#3",
 	],
 	"modules-right": [
-		"cpu",
-		"battery",
 		"backlight",
+		"battery",
 		"pulseaudio",
 		"network",
 		"bluetooth",
@@ -98,7 +97,7 @@
 			""
 		],
 		"format-charging": "󱐋 {capacity}%",
-		"format-plugged": ""
+		"format-plugged": "󱐋 {capacity}%"
 	},
 	"backlight": {
 		"device": "intel_backlight",
