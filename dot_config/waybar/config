@@ -102,7 +102,7 @@
 	"backlight": {
 		"device": "intel_backlight",
 		"format": "{icon} {percent}%",
-		"format-icons": ["", ""]
+		"format-icons": ["󰃞", "󰃟", "󰃠"]
 	},
 	"tray": {
 		"icon-size": 20,
