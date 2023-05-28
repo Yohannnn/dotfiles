@@ -1,149 +1,79 @@
-format = """
-[](mauve)\
-$os\
-$username\
-[](bg:red fg:mauve)\
-$directory\
-[](fg:red bg:peach)\
-$git_branch\
-$git_status\
-[](fg:peach bg:sapphire)\
-$c\
-$elixir\
-$elm\
-$golang\
-$gradle\
-$haskell\
-$java\
-$julia\
-$nodejs\
-$nim\
-$rust\
-$scala\
-[](fg:sapphire bg:teal)\
-$docker_context\
-[](fg:teal bg:blue)\
-$time\
-[ ](fg:blue)\
-"""
-
 palette = "catppuccin_mocha"
 
-# Disable the blank line at the start of the prompt
-add_newline = false
+[aws]
+symbol = "  "
 
-# You can also replace your username with a neat symbol like   or disable this
-# and use the os module below
-[username]
-show_always = true
-style_user = "bg:mauve"
-style_root = "bg:mauve"
-format = '[$user ]($style)'
-disabled = true
-
-# An alternative to the username module which displays a symbol that
-# represents the current operating system
-[os]
-style = "fg:text bg:mauve"
-disabled = false # Disabled by default
-
-[directory]
-style = "bg:red"
-format = "[ $path ]($style)"
-truncation_length = 3
-truncation_symbol = "…/"
-
-# Here is how you can shorten some long paths by text replacement
-# similar to mapped_locations in Oh My Posh:
-[directory.substitutions]
-"Documents" = " "
-"Downloads" = " "
-"Music" = " "
-"Pictures" = " "
-# Keep in mind that the order matters. For example:
-# "Important Documents" = "  "
-# will not be replaced, because "Documents" was already substituted before.
-# So either put "Important Documents" before "Documents" or use the substituted version:
-# "Important  " = "  "
+[buf]
+symbol = " "
 
 [c]
 symbol = " "
-style = "bg:sapphire"
-format = '[ $symbol ($version) ]($style)'
+
+[conda]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[directory]
+read_only = " "
 
 [docker_context]
 symbol = " "
-style = "bg:teal"
-format = '[ $symbol $context ]($style) $path'
 
 [elixir]
 symbol = " "
-style = "bg:sapphire"
-format = '[ $symbol ($version) ]($style)'
 
 [elm]
 symbol = " "
-style = "bg:sapphire"
-format = '[ $symbol ($version) ]($style)'
+
+[fossil_branch]
+symbol = " "
 
 [git_branch]
-symbol = ""
-style = "bg:peach"
-format = '[ $symbol $branch ]($style)'
-
-[git_status]
-style = "bg:peach"
-format = '[$all_status$ahead_behind ]($style)'
+symbol = " "
 
 [golang]
 symbol = " "
-style = "bg:sapphire"
-format = '[ $symbol ($version) ]($style)'
 
-[gradle]
-style = "bg:sapphire"
-format = '[ $symbol ($version) ]($style)'
+[guix_shell]
+symbol = " "
 
 [haskell]
 symbol = " "
-style = "bg:sapphire"
-format = '[ $symbol ($version) ]($style)'
+
+[haxe]
+symbol = "⌘ "
+
+[hg_branch]
+symbol = " "
+
+[hostname]
+ssh_symbol = " "
 
 [java]
 symbol = " "
-style = "bg:sapphire"
-format = '[ $symbol ($version) ]($style)'
 
 [julia]
 symbol = " "
-style = "bg:sapphire"
-format = '[ $symbol ($version) ]($style)'
 
-[nodejs]
-symbol = ""
-style = "bg:sapphire"
-format = '[ $symbol ($version) ]($style)'
+[lua]
+symbol = " "
+
+[memory_usage]
+symbol = " "
+
+[meson]
+symbol = "喝 "
 
 [nim]
 symbol = " "
-style = "bg:sapphire"
-format = '[ $symbol ($version) ]($style)'
 
-[rust]
-symbol = ""
-style = "bg:sapphire"
-format = '[ $symbol ($version) ]($style)'
+[nix_shell]
+symbol = " "
 
-[scala]
-symbol = " "
-style = "bg:sapphire"
-format = '[ $symbol ($version) ]($style)'
-
-[time]
-disabled = false
-time_format = "%R" # Hour:Minute Format
-style = "bg:blue"
-format = '[ $time ]($style)'
+[nodejs]
+symbol = " "
 
 [os.symbols]
 Alpaquita = " "
@@ -185,6 +115,30 @@ SUSE = " "
 Ubuntu = " "
 Unknown = " "
 Windows = " "
+
+[package]
+symbol = " "
+
+[pijul_channel]
+symbol = "🪺 "
+
+[python]
+symbol = " "
+
+[rlang]
+symbol = "ﳒ "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[scala]
+symbol = " "
+
+[spack]
+symbol = "🅢 "
 
 [palettes.catppuccin_mocha]
 rosewater = "#f5e0dc"
