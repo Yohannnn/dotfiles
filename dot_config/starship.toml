@@ -16,7 +16,7 @@ symbol = " "
 symbol = " "
 
 [directory]
-read_only = " "
+read_only = " "
 
 [docker_context]
 symbol = " "
@@ -61,13 +61,13 @@ symbol = " "
 symbol = " "
 
 [memory_usage]
-symbol = " "
+symbol = "󰍛 "
 
 [meson]
-symbol = "喝 "
+symbol = "󰔷 "
 
 [nim]
-symbol = " "
+symbol = "󰆥 "
 
 [nix_shell]
 symbol = " "
@@ -89,10 +89,10 @@ Emscripten = " "
 EndeavourOS = " "
 Fedora = " "
 FreeBSD = " "
-Garuda = "﯑ "
+Garuda = "󰛓 "
 Gentoo = " "
 HardenedBSD = "ﲊ "
-Illumos = " "
+Illumos = " "
 Linux = " "
 Mabox = " "
 Macos = " "
@@ -102,22 +102,22 @@ MidnightBSD = " "
 Mint = " "
 NetBSD = " "
 NixOS = " "
-OpenBSD = " "
+OpenBSD = " "
 openSUSE = " "
-OracleLinux = " "
+OracleLinux = "󰌷 "
 Pop = " "
 Raspbian = " "
 Redhat = " "
 RedHatEnterprise = " "
 Redox = " "
-Solus = "ﴱ "
+Solus = " "
 SUSE = " "
 Ubuntu = " "
 Unknown = " "
-Windows = " "
+Windows = " "
 
 [package]
-symbol = " "
+symbol = "󰏗 "
 
 [pijul_channel]
 symbol = "🪺 "
@@ -126,7 +126,7 @@ symbol = "🪺 "
 symbol = " "
 
 [rlang]
-symbol = "ﳒ "
+symbol = "󰟔 "
 
 [ruby]
 symbol = " "
