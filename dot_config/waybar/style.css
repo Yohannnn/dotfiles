@@ -17,7 +17,7 @@
 
 #workspaces button {
   color: @crust;
-  padding: 0 0.5em;
+  padding: 0 0.4em 0 0.3em;
 }
 
 #workspaces button.active {

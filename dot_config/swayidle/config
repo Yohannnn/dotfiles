@@ -1,2 +1,1 @@
-before-sleep 'swaylock -f -c 000000'
-unlock 'hyprctl keyword monitor eDP-1,preffered,0x0,1.5'
+before-sleep 'playerctl -a pause & swaylock -f -c 000000'
