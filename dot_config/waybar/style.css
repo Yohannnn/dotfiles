@@ -45,11 +45,11 @@
 	border-radius: 0.5em 0 0 0.5em ;
 }
 
-#pulseaudio {
+#wireplumber {
 	color: @maroon;
 }
 
-#pulseaudio.muted{
+#wireplumber.muted{
 	padding: 0 0.2em;
 }
 
@@ -76,7 +76,7 @@
 #cpu,
 #battery,
 #backlight,
-#pulseaudio,
+#wireplumber,
 #network,
 #bluetooth,
 #tray{
@@ -88,7 +88,7 @@
 #cpu,
 #battery,
 #backlight,
-#pulseaudio,
+#wireplumber,
 #network,
 #bluetooth,
 #tray{
