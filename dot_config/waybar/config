@@ -63,6 +63,7 @@
 	},
 	"bluetooth": {
 	"format": "",
+	"format-disabled": "󰂲",
 	"format-off": "󰂲",
 	"format-connected": "󰂱",
 	"tooltip-format": "{controller_alias}\t{controller_address}",
