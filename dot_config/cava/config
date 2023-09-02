@@ -1,3 +1,7 @@
+[input]
+method = pipewire
+source = auto
+
 [color]
 
 gradient = 1
