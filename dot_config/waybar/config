@@ -7,7 +7,7 @@
   "margin": "0 0 0 0",
 
 	"modules-left": [
-		"wlr/workspaces"
+		"hyprland/workspaces"
 	],
 	"modules-center": [
 		"clock#1",
@@ -23,9 +23,7 @@
 		"tray",
 	],
 
-  "wlr/workspaces": {
-    "on-scroll-up": "hyprctl dispatch workspace e+1",
-    "on-scroll-down": "hyprctl dispatch workspace e-1",
+  "hyprland/workspaces": {
     "all-outputs": true,
     "on-click": "activate",
     "format": "{icon}",
