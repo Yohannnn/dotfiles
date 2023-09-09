@@ -9,7 +9,6 @@ separator_color = "#f5c2e7"
 
 [palette]
 type            = "Light"
-glyph           = " ● "
 visible         = true
 
 [bar]
@@ -20,9 +19,9 @@ visible         = false
 hide_delimiters = true
 
 [box]
-title           = " "
-border          = "plain"
-visible         = false
+title           = ""
+border          = "rounded"
+visible         = true
 
 [box.inner_margin]
 x               = 2
@@ -43,7 +42,7 @@ host            = "Host"
 kernel          = "Kernel"
 battery         = "Battery"
 os              = "OS"
-de              = "DE"
+de              = "Compositor"
 wm              = "WM"
 distro          = "Distro"
 terminal        = "Terminal"
