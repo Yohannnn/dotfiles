@@ -156,7 +156,7 @@ $env.config = {
 
     table: {
         mode: rounded # basic, compact, compact_double, light, thin, with_love, rounded, reinforced, heavy, none, other
-        index_mode: always # "always" show indexes, "never" show indexes, "auto" = show indexes when a table has "index" column
+        index_mode: auto # "always" show indexes, "never" show indexes, "auto" = show indexes when a table has "index" column
         show_empty: true # show 'empty list' and 'empty record' placeholders for command output
         padding: { left: 1, right: 1 } # a left right padding of each column in a table
         trim: {
@@ -764,6 +764,8 @@ $env.config = {
 }
 
 use ~/.cache/starship/init.nu
+use ~/.config/nushell/catppuccin-mocha.nu *
+$env.config = ($env.config | merge {color_config: (catppuccin-mocha)})
 
 use ~/.config/nushell/git-completions.nu *
 use ~/.config/nushell/man-completions.nu *
