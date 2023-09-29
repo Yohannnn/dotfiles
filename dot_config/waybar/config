@@ -57,7 +57,7 @@
 		"tooltip-format-wifi": "{essid} ({signalStrength}%)",
 		"tooltip-format-ethernet": "{ifname} ",
 	"tooltip-format-disconnected": "Disconnected",
-		"on-click":"networkmanager_dmenu"
+		"on-click":"sleep 0.1 && networkmanager_dmenu"
 	},
 	"bluetooth": {
 	"format": "",
@@ -67,12 +67,12 @@
 	"tooltip-format": "{controller_alias}\t{controller_address}",
 	"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
 	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
-	"on-click": "rofi-bluetooth"
+	"on-click": "sleep 0.1 && rofi-bluetooth"
 	},
 	"cpu": {
 		"interval": 5,
 		"format": " {usage}%",
-    "on-click":"kitty btop"
+    "on-click":"sleep 0.1 && kitty btop"
 	},
 	"battery": {
 		"states": {
