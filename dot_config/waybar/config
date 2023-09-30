@@ -69,11 +69,6 @@
 	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
 	"on-click": "sleep 0.1 && rofi-bluetooth"
 	},
-	"cpu": {
-		"interval": 5,
-		"format": " {usage}%",
-    "on-click":"sleep 0.1 && kitty btop"
-	},
 	"battery": {
 		"states": {
 			"good": 95,
