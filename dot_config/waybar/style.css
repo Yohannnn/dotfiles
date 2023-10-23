@@ -1,5 +1,3 @@
-@import "mocha.css";
-
 * {
   font-family: FiraCode Nerd Font;
   font-size: 18px;
@@ -11,8 +9,8 @@
 }
 
 tooltip {
-  color: @text;
-  background-color: @crust;
+  color: #EBDBB2;
+  background-color: #282828;
 }
 
 #workspaces{
@@ -21,16 +19,16 @@ tooltip {
 }
 
 #workspaces button {
-  color: @crust;
+	color: #A89984;
   padding: 0 0.5em 0 0.4em;
 }
 
 #workspaces button.active {
-	color: @mauve;
+	color: #98971A;
 }
 
 #clock{
-	color: @text;
+	color: #EBDBB2;
 }
 
 #clock.1{
@@ -42,16 +40,16 @@ tooltip {
 }
 
 #battery {
-	color: @green;
+	color: #B8BB26;
 }
 
 #backlight {
-	color: @yellow;
+	color: #FABD2F;
 	border-radius: 0.5em 0 0 0.5em ;
 }
 
 #wireplumber {
-	color: @maroon;
+	color: #FB4934;
 }
 
 #wireplumber.muted{
@@ -59,15 +57,15 @@ tooltip {
 }
 
 #network {
-	color: @sapphire;
+	color: #83A598;
 }
 
 #network.disconnected {
-	color: @red;
+	color: #CC241D;
 }
 
 #bluetooth {
-	color: @blue;
+	color: #458588;
 	border-radius: 0 0.5em 0.5em 0;
 	margin-right: 0.5em;
 }
@@ -97,5 +95,5 @@ tooltip {
 #network,
 #bluetooth,
 #tray{
-	background: @base;
+	background: #3C3836;
 }

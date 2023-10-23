@@ -1,18 +1,18 @@
-image=Pictures/wallpaper.jpg
+image=Pictures/wallpaper.png
 inside-color=#00000000
 inside-ver-color=#00000000
 inside-clear-color=#00000000
 inside-wrong-color=#00000000
-text-color=#cdd6f4
-text-clear-color=#cdd6f4
-text-caps-lock-color=#cdd6f4
-text-ver-color=#cdd6f4
-text-wrong-color=#cdd6f4
+text-color=#282828
+text-clear-color=#282828
+text-caps-lock-color=#282828
+text-ver-color=#282828
+text-wrong-color=#282828
 
-ring-color=#94e2d5
-key-hl-color=#A6E3A1
-bs-hl-color=#F38BA8
+ring-color=#A89984
+key-hl-color=#B8BB26
+bs-hl-color=#FB4934
 
-ring-ver-color=#89b4fa
-ring-clear-color=#f9e2af
-ring-wrong-color=#F38BA8
+ring-ver-color=#A4C3C4
+ring-clear-color=#D7981E
+ring-wrong-color=#CC241D

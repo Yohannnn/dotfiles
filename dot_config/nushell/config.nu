@@ -761,8 +761,6 @@ $env.config = {
 }
 
 use ~/.cache/starship/init.nu
-use ~/.config/nushell/catppuccin-mocha.nu *
-$env.config = ($env.config | merge {color_config: (catppuccin-mocha)})
 
 use ~/.config/nushell/git-completions.nu *
 use ~/.config/nushell/man-completions.nu *

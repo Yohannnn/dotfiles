@@ -4,11 +4,11 @@ spacing         = 1
 padding         = 0
 hide_ascii      = false
 separator       = "|-"
-key_color       = "#cba6f7"
-separator_color = "#f5c2e7"
+key_color       = "Green"
+separator_color = "LightGreen"
 
 [palette]
-type            = "Light"
+type            = "Full"
 visible         = true
 
 [bar]
@@ -28,7 +28,7 @@ x               = 2
 y               = 1
 
 [custom_ascii]
-color           = "#89b4fa"
+color           = "Blue"
 path            = "Pictures/archlinux.ascii"
 
 
