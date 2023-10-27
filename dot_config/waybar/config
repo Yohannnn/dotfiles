@@ -57,7 +57,7 @@
 		"tooltip-format-wifi": "{essid} ({signalStrength}%)",
 		"tooltip-format-ethernet": "{ifname} ",
 	"tooltip-format-disconnected": "Disconnected",
-		"on-click":"sleep 0.1 && networkmanager_dmenu"
+		"on-click":"sleep 0.1 && hyprctl dispatch exec '[float; size 495 500; center; pin] kitty nmtui'"
 	},
 	"bluetooth": {
 	"format": "",
@@ -67,7 +67,7 @@
 	"tooltip-format": "{controller_alias}\t{controller_address}",
 	"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
 	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
-	"on-click": "sleep 0.1 && rofi-bluetooth"
+	"on-click": "sleep 0.1 && hyprctl dispatch exec '[float; size 1000 400; center; pin] kitty bluetuith'"
 	},
 	"battery": {
 		"states": {
