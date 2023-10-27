@@ -1,0 +1,8 @@
+Config(
+  plugins: [
+    "libapplications.so",
+    "libsymbols.so",
+    "librink.so",
+    "libtranslate.so",
+  ],
+)
