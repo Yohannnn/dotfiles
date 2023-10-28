@@ -1,4 +1,5 @@
 Config(
+  ignore_exclusive_zones: true,
   plugins: [
     "libapplications.so",
     "libsymbols.so",
