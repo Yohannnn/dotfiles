@@ -19,8 +19,8 @@ tooltip {
 }
 
 #workspaces button {
-	color: #A89984;
-  padding: 0 0.5em 0 0.4em;
+	color: #EBDBB2;  
+	padding: 0 0.5em 0 0.4em;
 }
 
 #workspaces button.active {
