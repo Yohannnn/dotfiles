@@ -27,11 +27,9 @@
     "all-outputs": true,
     "on-click": "activate",
     "format": "{icon}",
-    "format-icons": {
-        "urgent": "",
-        "default": ""
-    }
+    "format-icons": {"urgent": "", "default": ""}
   },
+
 	"clock#1": {
 		"format": "{:%a}",
 		"tooltip": false
@@ -57,7 +55,7 @@
 		"tooltip-format-wifi": "{essid} ({signalStrength}%)",
 		"tooltip-format-ethernet": "{ifname} ",
 	"tooltip-format-disconnected": "Disconnected",
-		"on-click":"sleep 0.1 && hyprctl dispatch exec '[float; size 495 500; center; pin] kitty nmtui'"
+		"on-click":"sleep 0.1 && hyprctl dispatch exec '[float; size 792 500; center; pin] kitty nmtui'"
 	},
 	"bluetooth": {
 	"format": "",
