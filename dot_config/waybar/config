@@ -45,6 +45,7 @@
 	"wireplumber": {
 		"format": "{icon} {volume}%",
 		"format-muted": "󰝟",
+		"on-clink": "sleep 0.1 && helvum",
 		"format-icons": ["","", ""]
 	},
 	"network": {
