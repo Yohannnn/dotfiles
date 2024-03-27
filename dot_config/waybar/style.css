@@ -63,12 +63,11 @@ tooltip {
 
 #bluetooth {
 	color: #458588;
-	border-radius: 0 0.5em 0.5em 0;
-	margin-right: 0.5em;
+	padding-left: 0.5em;
 }
 
 #tray{
-	border-radius: 0.5em;
+	border-radius: 0 0.5em 0.5em 0;
 	margin-right: 0.5em;
 }
 
@@ -78,7 +77,6 @@ tooltip {
 #backlight,
 #wireplumber,
 #network,
-#bluetooth,
 #tray{
 	padding: 0 0.5em;
 }
