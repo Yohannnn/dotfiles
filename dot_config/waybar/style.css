@@ -13,14 +13,21 @@ tooltip {
   background-color: #282828;
 }
 
-#workspaces{
+#custom-cap-left{
 	margin-left: 0.5em;
-	border-radius: 0.5em;
+	border-radius: 0.5em 0 0 0.5em;
+	padding-left: 0.5em;
+}
+
+#custom-cap-right{
+	margin-right: 0.5em;
+	border-radius: 0 0.5em 0.5em 0;
+	padding-right: 0.5em;
 }
 
 #workspaces button {
-	color: #EBDBB2;  
-	padding: 0 0.5em 0 0.4em;
+	color: #EBDBB2;
+	padding: 0 0.2em;
 }
 
 #workspaces button.active {
@@ -31,21 +38,12 @@ tooltip {
 	color: #EBDBB2;
 }
 
-#clock.1{
-	border-radius: 0.5em 0 0 0.5em;
-}
-
-#clock.3{
-	border-radius: 0 0.5em 0.5em 0;
-}
-
 #battery {
 	color: #B8BB26;
 }
 
 #backlight {
 	color: #FABD2F;
-	border-radius: 0.5em 0 0 0.5em ;
 }
 
 #wireplumber {
@@ -63,12 +61,10 @@ tooltip {
 
 #bluetooth {
 	color: #458588;
-	padding-left: 0.5em;
 }
 
 #tray{
-	border-radius: 0 0.5em 0.5em 0;
-	margin-right: 0.5em;
+	padding-right: 0.5em
 }
 
 #clock,
@@ -77,10 +73,12 @@ tooltip {
 #backlight,
 #wireplumber,
 #network,
-#tray{
+#bluetooth{
 	padding: 0 0.5em;
 }
 
+#custom-cap-left,
+#custom-cap-right,
 #workspaces,
 #clock,
 #cpu,
