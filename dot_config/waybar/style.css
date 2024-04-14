@@ -8,21 +8,16 @@
   background-color: transparent;
 }
 
+.modules-left,
+.modules-center,
+.modules-right {
+	background: #3C3836;
+	border-radius: 0.5em;
+}
+
 tooltip {
   color: #EBDBB2;
   background-color: #282828;
-}
-
-#custom-cap-left{
-	margin-left: 0.5em;
-	border-radius: 0.5em 0 0 0.5em;
-	padding-left: 0.5em;
-}
-
-#custom-cap-right{
-	margin-right: 0.5em;
-	border-radius: 0 0.5em 0.5em 0;
-	padding-right: 0.5em;
 }
 
 #workspaces button {
@@ -50,7 +45,6 @@ tooltip {
 	color: #FB4934;
 }
 
-
 #network {
 	color: #83A598;
 }
@@ -73,20 +67,7 @@ tooltip {
 #backlight,
 #wireplumber,
 #network,
+#workspaces,
 #bluetooth{
 	padding: 0 0.5em;
-}
-
-#custom-cap-left,
-#custom-cap-right,
-#workspaces,
-#clock,
-#cpu,
-#battery,
-#backlight,
-#wireplumber,
-#network,
-#bluetooth,
-#tray{
-	background: #3C3836;
 }

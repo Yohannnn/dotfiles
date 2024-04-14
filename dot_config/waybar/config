@@ -3,42 +3,26 @@
 {
 	"layer": "top",
 	"position": "top",
-  "height": 30,
-  "margin": "0 0 0 0",
-
+	"height": 30,
+	"margin-left": 10,
+	"margin-right": 10,
+	
 	"modules-left": [
-		"custom/cap-left",
 		"hyprland/workspaces",
-		"custom/cap-right"
 	],
 	"modules-center": [
-		"custom/cap-left",
 		"clock#1",
 		"clock#2",
 		"clock#3",
-		"custom/cap-right"
 	],
 	"modules-right": [
-		"custom/cap-left",
 		"backlight",
 		"battery",
 		"wireplumber",
 		"network",
 		"bluetooth",
 		"tray",
-		"custom/cap-right"
 	],
-
-	"custom/cap-left": {
-		"format": "​",
-		"tooltip": false
-	},
-
-	
-	"custom/cap-right": {
-		"format": "​",
-		"tooltip": false
-	},
 
   "hyprland/workspaces": {
     "all-outputs": true,
