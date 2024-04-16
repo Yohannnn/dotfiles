@@ -20,6 +20,10 @@ tooltip {
   background-color: #282828;
 }
 
+#workspaces {
+	padding: 0 0.3em;
+}
+
 #workspaces button {
 	color: #EBDBB2;
 	padding: 0 0.2em;
@@ -67,7 +71,6 @@ tooltip {
 #backlight,
 #wireplumber,
 #network,
-#workspaces,
 #bluetooth{
 	padding: 0 0.5em;
 }
