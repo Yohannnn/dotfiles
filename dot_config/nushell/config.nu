@@ -766,6 +766,5 @@ use ~/.config/nushell/git-completions.nu *
 use ~/.config/nushell/man-completions.nu *
 source ~/.cache/carapace/init.nu
 
-def bootkali [] {sudo efibootmgr -n 0001; reboot}
 def rmorph [] {paru -Qtdq | paru -Rns -}
 alias hx = helix
