@@ -57,7 +57,7 @@
 		"tooltip-format-wifi": "{essid} ({signalStrength}%)",
 		"tooltip-format-ethernet": "{ifname} ",
 	"tooltip-format-disconnected": "Disconnected",
-		"on-click":"hyprctl dispatch exec '[float; size 792 500; center; pin] kitty nmtui'"
+		"on-click":"hyprctl dispatch exec '[float; size 788 490; center; pin] kitty nmtui'"
 	},
 	"bluetooth": {
 	"format": "",
