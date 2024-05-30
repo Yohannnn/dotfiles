@@ -1,4 +1,4 @@
-name = capitane-cursors
-description = Capitane cursors in svg
+name = Extracted Theme
+description = Automatically extracted with hyprcursor-util
 version = 0.1
 cursors_directory = hyprcursors
