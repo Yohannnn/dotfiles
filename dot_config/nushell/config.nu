@@ -44,4 +44,5 @@ source ~/.cache/carapace/init.nu
 
 alias hx = helix
 alias sudo = doas
-alias kssh = kitten ssh
+alias core-ssh = ssh
+alias ssh = kitten ssh
