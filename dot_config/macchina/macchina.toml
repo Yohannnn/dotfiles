@@ -21,4 +21,4 @@ theme = "Custom"
 #   - Battery
 #   - GPU
 #   - DiskSpace
-show = ["Host", "Machine", "Kernel", "Distribution", "DesktopEnvironment", "Packages", "Terminal", "Shell", "Uptime", "Processor", "Memory"]
+show = ["Host", "Machine", "Kernel", "Distribution", "WindowManager", "Packages", "Terminal", "Shell", "Uptime", "Processor", "Memory"]
