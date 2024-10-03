@@ -21,12 +21,8 @@ tooltip {
   background-color: #282828;
 }
 
-#workspaces {
-	padding: 0 0.5em;
-}
-
 #workspaces button {
-	padding-left: 0.5em;
+	padding-left: 0.9em;
   color: #EBDBB2;
 }
 
@@ -70,7 +66,8 @@ tooltip {
 	padding: 0 0.4em;
 }
 
-#tray,
-#clock{
+#workspaces,
+#clock,
+#tray{
 	padding: 0 0.5em
 }
