@@ -21,8 +21,11 @@ tooltip {
   background-color: #282828;
 }
 
+#workspaces {
+	padding-left: 0.4em;
+}
+
 #workspaces button {
-	padding-left: 0.9em;
   color: #EBDBB2;
 }
 
@@ -58,16 +61,12 @@ tooltip {
 	color: #458588;
 }
 
+#clock,
 #battery,
 #backlight,
 #wireplumber,
 #network,
-#bluetooth{	
+#bluetooth,
+#tray{	
 	padding: 0 0.4em;
-}
-
-#workspaces,
-#clock,
-#tray{
-	padding: 0 0.5em
 }
