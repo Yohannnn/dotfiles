@@ -1,7 +1,8 @@
 * {
-  font-family: FiraCode Nerd Font;
+  font-family: FiraMono Nerd Font;
   font-size: 18px;
   font-weight: bold;
+  font-style: normal;
 }
 
 #waybar {
@@ -21,12 +22,12 @@ tooltip {
 }
 
 #workspaces {
-	padding: 0 0.3em;
+	padding: 0 0.5em;
 }
 
 #workspaces button {
-	color: #EBDBB2;
-	padding-right: 0.3em;
+	padding-left: 0.5em;
+  color: #EBDBB2;
 }
 
 #workspaces button.active {
@@ -37,12 +38,12 @@ tooltip {
 	color: #EBDBB2;
 }
 
-#battery {
-	color: #B8BB26;
-}
-
 #backlight {
 	color: #FABD2F;
+}
+
+#battery {
+	color: #B8BB26;
 }
 
 #wireplumber {
@@ -61,16 +62,15 @@ tooltip {
 	color: #458588;
 }
 
-#tray{
-	padding-right: 0.5em
-}
-
-#clock,
-#cpu,
 #battery,
 #backlight,
 #wireplumber,
 #network,
-#bluetooth{
-	padding: 0 0.5em;
+#bluetooth{	
+	padding: 0 0.4em;
+}
+
+#tray,
+#clock{
+	padding: 0 0.5em
 }
