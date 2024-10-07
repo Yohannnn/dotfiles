@@ -3,7 +3,7 @@
 
 include "/home/yohan/.gtkrc-2.0.mine"
 gtk-theme-name="Colloid-Green-Dark-Gruvbox"
-gtk-icon-theme-name="gruvbox-dark-icons-gtk"
+gtk-icon-theme-name="Colloid-Green-Gruvbox-Dark"
 gtk-font-name="Fira Mono 11"
 gtk-cursor-theme-name="capitane-dark"
 gtk-cursor-theme-size=24
