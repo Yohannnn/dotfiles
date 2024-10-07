@@ -34,45 +34,46 @@
 	},
 
 	"clock#1": {
-		"format": "{:%a}",
+		"format": "<b>{:%a}</b>",
 		"tooltip": false
 	},
 	"clock#2": {
-		"format": "{:%I:%M}",
+		"format": "<b>{:%I:%M}</b>",
 		"tooltip": false
 	},
 	"clock#3": {
-		"format": "{:%m-%d}",
+		"format": "<b>{:%m-%d}</b>",
 		"tooltip": false
 	},
 	
 	"backlight": {
-		"format": "{percent}% {icon} ",
-		"format-icons": ["󰃞", "󰃟", "󰃠"]
+		"format": "<b>{percent}%</b> {icon}",
+		"format-icons": ["󰃞", "󰃟", "󰃠"],
+		"tooltip": false
 	},
 	
 	"battery": {
-		"format": "{capacity}% {icon}",
+		"format": "<b>{capacity}%</b> {icon}",
 		"format-icons": {
-			"default":  [" "," "," "," "," "],
+			"default":  ["","","","",""],
 			"charging": "󱐋",
 			"plugged": "󰚥",
 		}
 	},
 
 	"wireplumber": {
-		"format": "{volume}% {icon}",
-		"format-muted": " ",
+		"format": "<b>{volume}%</b> {icon}",
+		"format-muted": "",
 		"on-click": "helvum",
-		"format-icons": [""," "," "]
+		"format-icons": ["","",""]
 	},
 	
 	"network": {
 		"format": "{icon}",
 		"format-icons": {
-			"wifi": " ",
-			"ethernet": " ",
-			"disconnected": "󰀪 "
+			"wifi": "",
+			"ethernet": "",
+			"disconnected": "󰀪"
 		},
 		"tooltip-format": "{ifname} via {gwaddr}",
 		"tooltip-format-wifi": "{essid} ({signalStrength}%)",
