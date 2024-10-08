@@ -21,7 +21,9 @@ use ~/.cache/starship/init.nu
 
 source ~/.cache/carapace/init.nu
 
-alias hx = helix
 alias sudo = doas
 alias core-ssh = ssh
 alias ssh = kitten ssh
+
+{{ if eq .osid "Arch Linux" }}
+alias hx = helix
