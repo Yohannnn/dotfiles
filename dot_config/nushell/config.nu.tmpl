@@ -24,7 +24,6 @@ source ~/.cache/carapace/init.nu
 alias sudo = doas
 alias core-ssh = ssh
 alias ssh = kitten ssh
-
-{{ if eq .osid "linux-arch" }}
+{{- if eq .osid "linux-arch" }}
 alias hx = helix
 {{ end }}
