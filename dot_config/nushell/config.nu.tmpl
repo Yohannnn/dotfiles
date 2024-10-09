@@ -1,3 +1,7 @@
+let carapace_completer = {|spans|
+    carapace $spans.0 nushell ...$spans | from json
+}
+
 $env.config = {
   show_banner: false
   cursor_shape: {
@@ -6,6 +10,12 @@ $env.config = {
   rm: {
     always_trash: true
   }
+  completions: {
+    external: {
+      enable: true
+        completer: $carapace_completer
+        }
+    }
   shell_integration: {
     osc2: true
     osc7: true
@@ -24,3 +34,6 @@ source ~/.cache/carapace/init.nu
 alias sudo = doas
 alias core-ssh = ssh
 alias ssh = kitten ssh
+{{- if eq .osid "linux-arch" }}
+alias hx = 'helix'
+{{- else }}
