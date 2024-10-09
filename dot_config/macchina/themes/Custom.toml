@@ -28,9 +28,7 @@ x               = 2
 y               = 1
 
 [custom_ascii]
-color           = "Blue"
-path            = "Pictures/archlinux.ascii"
-
+path            = "Pictures/macchina.ascii"
 
 [randomize]
 key_color       = false
