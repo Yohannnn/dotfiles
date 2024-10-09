@@ -1,0 +1,15 @@
+font = FiraMono
+num-results = 10
+hide-cursor = true
+width = 640
+height = 480
+corner-radius = 12
+border-width = 2
+outline-width = 0
+
+# gruvbox-dark
+text-color       = #ebdbb2
+prompt-color     = #fb4934
+selection-color  = #fabd2f
+background-color = #282828
+border-color = #b8bb26
