@@ -1,0 +1,7 @@
+num-results = 5
+width = 90%
+height = 30%
+prompt-text = "search: "
+matching-algorithm = fuzzy
+
+include = config
