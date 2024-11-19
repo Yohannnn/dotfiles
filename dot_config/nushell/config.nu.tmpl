@@ -35,3 +35,6 @@ alias ssh = kitten ssh
 {{- if eq .osid "linux-arch" }}
 alias hx = helix
 {{- end }}
+{{- if eq .osid "linux-void" }}
+alias firefox = flatpak run org.mozilla.firefox
+{{- end }}
