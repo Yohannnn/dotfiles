@@ -1,5 +1,3 @@
-// -*- mode: json -*-
-
 {
 	"layer": "top",
 	"position": "top",
@@ -11,9 +9,7 @@
 		"hyprland/workspaces",
 	],
 	"modules-center": [
-		"clock#1",
-		"clock#2",
-		"clock#3",
+		"clock",
 	],
 	"modules-right": [
 		"backlight",
@@ -33,16 +29,9 @@
 		}
 	},
 
-	"clock#1": {
-		"format": "<b>{:%a}</b>",
-		"tooltip": false
-	},
-	"clock#2": {
-		"format": "<b>{:%I:%M}</b>",
-		"tooltip": false
-	},
-	"clock#3": {
-		"format": "<b>{:%m-%d}</b>",
+	"clock": {
+		"format": "<b>{:%a %I:%M %m-%d}</b>",
+		"timezone": "America/Los_Angeles",
 		"tooltip": false
 	},
 	
