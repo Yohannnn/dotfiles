@@ -31,7 +31,7 @@
 
 	"clock": {
 		"format": "<b>{:%a %I:%M %m-%d}</b>",
-		"timezone": "America/Los_Angeles",
+		"timezone": "America/Denver",
 		"tooltip": false
 	},
 	
@@ -79,7 +79,7 @@
 		"tooltip-format": "{controller_alias}\t{controller_address}",
 		"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
 		"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
-		"on-click": "hyprctl dispatch exec '[float; size 1000 400; center; pin] kitty bluetuith'"
+		"on-click": "hyprctl dispatch exec '[float; size 1000 400; center; pin] ghostty -e bluetuith'"
 	},
 	
 	"tray": {
