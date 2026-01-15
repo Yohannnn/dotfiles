@@ -1,9 +1,0 @@
-Config(
-  ignore_exclusive_zones: true,
-  plugins: [
-    "libapplications.so",
-    "libsymbols.so",
-    "librink.so",
-    "libtranslate.so",
-  ],
-)
