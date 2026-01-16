@@ -1,0 +1,3 @@
+history -c
+config nu --doc | nu-highlight | less -R
+config nu
