@@ -21,8 +21,6 @@ $env.config = {
     }
 }
 
-alias core-sudo = sudo
-alias sudo = doas
 alias hx = helix
 def view_nu_config [] { config nu --doc | nu-highlight | less -R }
 def --env y [...args] {
