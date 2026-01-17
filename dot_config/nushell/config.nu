@@ -23,6 +23,7 @@ $env.config = {
 
 alias core-sudo = sudo
 alias sudo = doas
+alias hx = helix
 def view_nu_config [] { config nu --doc | nu-highlight | less -R }
 def --env y [...args] {
 	let tmp = (mktemp -t "yazi-cwd.XXXXXX")
@@ -40,5 +41,3 @@ $env.EDITOR = 'hx'
 
 mkdir ($nu.data-dir | path join "vendor/autoload")
 starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")
-
-macchina
