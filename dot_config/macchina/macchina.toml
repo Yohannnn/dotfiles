@@ -1,24 +1,5 @@
+current_shell = true
+
 theme = "Custom"
-# Displays only the specified readouts.
-# Accepted values (case-sensitive):
-#   - Host
-#   - Machine
-#   - Kernel
-#   - Distribution
-#   - OperatingSystem
-#   - DesktopEnvironment
-#   - WindowManager
-#   - Resolution
-#   - Backlight
-#   - Packages
-#   - LocalIP
-#   - Terminal
-#   - Shell
-#   - Uptime
-#   - Processor
-#   - ProcessorLoad
-#   - Memory
-#   - Battery
-#   - GPU
-#   - DiskSpace
-show = ["Host", "Machine", "Kernel", "Distribution", "WindowManager", "Packages", "Terminal", "Shell", "Uptime", "Processor", "Memory"]
+
+show = ["Host", "Machine", "Distribution", "WindowManager", "Packages", "Terminal", "Shell", "Uptime", "Processor", "GPU", "Memory", "DiskSpace"]
