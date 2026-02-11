@@ -68,7 +68,7 @@
 		"tooltip-format-wifi": "{essid} ({signalStrength}%)",
 		"tooltip-format-ethernet": "{ifname}",
 		"tooltip-format-disconnected": "Disconnected",
-		"on-click":"hyprctl dispatch exec '[float; size 788 490; center; pin] iwgtk'"
+		"on-click":"hyprctl dispatch exec '[float; size 1000 400; center; pin] ghostty -e impala'"
 	},
 	
 	"bluetooth": {

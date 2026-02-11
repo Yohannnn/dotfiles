@@ -1,6 +1,6 @@
 $env.config = {
   history: {
-    file_format: "sqlite"
+    file_format: 'sqlite'
     isolation: true
   }
   show_banner: false
@@ -14,10 +14,10 @@ $env.config = {
 
 def view_nu_config [] { config nu --doc | nu-highlight | bat }
 def --env y [...args] {
-	let tmp = (mktemp -t "yazi-cwd.XXXXXX")
+	let tmp = (mktemp -t 'yazi-cwd.XXXXXX')
 	yazi ...$args --cwd-file $tmp
 	let cwd = (open $tmp)
-	if $cwd != "" and $cwd != $env.PWD {
+	if $cwd != '' and $cwd != $env.PWD {
 		cd $cwd
 	}
 	rm -fp $tmp
@@ -26,7 +26,8 @@ def --env y [...args] {
 $env.LS_COLORS = (vivid generate gruvbox-dark)
 $env.DIFFPROOG = 'diff --color'
 $env.EDITOR = 'hx'
+$env.PAGER = 'bat'
 $env.GOPATH = $'($env.HOME)/.go'
 
-mkdir ($nu.data-dir | path join "vendor/autoload")
-starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")
+mkdir ($nu.data-dir | path join 'vendor/autoload')
+starship init nu | save -f ($nu.data-dir | path join 'vendor/autoload/starship.nu')
